@@ -1,0 +1,9 @@
+
+PUT  http://127.0.0.1:8000/api/articles/1
+Content-Type: : application/json
+Accept: application/json
+
+{
+    "title": "renewal update",
+    "body": "this is your renewal"
+}
